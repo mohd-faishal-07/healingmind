@@ -1,0 +1,309 @@
+/* CSS for All */
+
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text&family=Roboto:wght@500&display=swap');
+
+* {
+  margin: 0 0;
+  padding: 0 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 1%;
+}
+
+.img-responsive {
+  width: 100%;
+
+}
+
+.img-curve {
+  border-radius: 15px;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-white {
+  color: white;
+}
+.text-red{
+  color: red;
+}
+.clearfix {
+  clear: both;
+  float: none;
+}
+
+a {
+  color: #2300bd;
+  text-decoration: none;
+  font-weight: bolder;
+  font-size: larger;
+
+}
+
+a:hover {
+  color: red;
+}
+
+.btn {
+  padding: 1%;
+  border: none;
+  font-size: 1rem;
+  border-radius: 5px;
+}
+
+.btn-primary {
+  background-color: red;
+  color: white;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  color: white;
+  background-color: red;
+}
+h1{
+  font-size: 2.5rem;
+  background-color: white;
+}
+
+h2 {
+  color: #083086;
+  font-size: 2rem;
+  margin-bottom: 2%;
+  text-decoration: underline;
+
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+.float-container {
+  position: relative;
+}
+
+.float-text {
+  position: absolute;
+  bottom: 50px;
+  left: 40%;
+}
+fieldset {
+  border: 1px solid black;
+  background-color: white;
+  margin: 3%;
+  padding: 1%;
+  border-radius: 5px;
+}
+
+.error {
+  padding: 2%;
+  color: red;
+}
+
+.success {
+  padding: 2%;
+  color: green;
+}
+
+/* CSSS for navbar section */
+
+.logo {
+  width: 10%;
+  float: left;
+
+}
+
+.menu {
+  line-height: 60px;
+}
+
+.menu ul {
+  list-style-type: none;
+}
+
+.menu ul li {
+  display: inline;
+  padding: 1%;
+  font-weight: bold;
+
+}
+
+/* CSS for  service SEarch Section */
+
+.service-search {
+  background-image: url(../images/doctor.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100px;
+  background-position: center;
+  padding: 7% 0;
+}
+
+.service-search2 {
+  background-image: url(tests.webp);
+  height: 500px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 7% 0;
+}
+
+.service-search2 input[type="search"] {
+  width: 50%;
+  padding: 1%;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+}
+
+/* CSS for REstairamt */
+.categories {
+  padding: 4% 0;
+  background-color: lightblue;
+}
+
+.box-3 {
+  width: 28%;
+  float: left;
+  margin: 2%;
+}
+
+/* CSS for  service Menu */
+.service-menu {
+  background-color: lightblue;
+  padding: 4% 0;
+}
+
+.service-menu-box {
+  width: 43%;
+  margin: 1%;
+  padding: 2%;
+  float: left;
+  background-color: lightslategrey;
+  border-radius: 15px;
+}
+
+.service-menu-img {
+  width: 20%;
+  float: left;
+}
+
+.service-menu-desc {
+  width: 70%;
+  float: left;
+  margin-left: 8%;
+}
+
+.service-price {
+  font-size: 1.2rem;
+  margin: 2% 0;
+}
+
+.service-detail {
+  font-size: 1rem;
+  color: #747d8c;
+}
+
+/* CSS for Social */
+.social ul {
+  list-style-type: none;
+}
+
+.social ul li {
+  display: inline;
+  padding: 1%;
+}
+
+/* for bookings Section */
+.bookings {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.input-responsive {
+  width: 96%;
+  padding: 1%;
+  margin-bottom: 3%;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.bookings-label {
+  margin-bottom: 1%;
+  font-weight: bold;
+}
+
+/* CSS for Mobile Size or Smaller Screen */
+
+@media only screen and (max-width: 768px) {
+  .logo {
+    width: 80%;
+    float: none;
+    margin: 1% auto;
+  }
+
+  .menu ul {
+    text-align: center;
+  }
+
+  .service-search input[type="search"] {
+    width: 90%;
+    padding: 2%;
+    margin-bottom: 3%;
+  }
+
+  .btn {
+    width: 91%;
+    padding: 2%;
+  }
+
+  .service-search {
+    padding: 10% 0;
+  }
+
+  .categories {
+    padding: 20% 0;
+  }
+
+  h2 {
+    margin-bottom: 10%;
+  }
+
+  .box-3 {
+    width: 100%;
+    margin: 4% auto;
+  }
+
+  .service-menu {
+    padding: 20% 0;
+  }
+
+  .service-menu-box {
+    width: 90%;
+    padding: 5%;
+    margin-bottom: 5%;
+  }
+
+  .social {
+    padding: 5% 0;
+  }
+
+  .bookings {
+    width: 100%;
+  }
+}

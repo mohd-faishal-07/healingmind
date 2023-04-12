@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text&family=Roboto:wght@500&display=swap');
+body {
+    margin: 0;
+    padding: 0%;
+    background: url(contacts.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: 'Roboto', sans-serif;
+    width: 95.7%;
+    height: 97%;
+}
+
+.usericon1
+{
+    margin-left: 40%;
+    margin-top: -10%;
+    margin-bottom: 5%;
+    border-radius: 50%;
+    height: 70px;
+}
+.contbox
+{
+    background-color: lightblue;
+    border: 1px solid black;
+    width: 28%;
+    height: 285px;
+    margin-left: 40%;
+    border-radius: 8%;
+    margin-top: 5%;
+}
+
+.contactbox
+{
+    background-color: lightblue;
+    border: 1px solid black;
+    width: 25%;
+    height: 285px;
+    margin-left: 70%;
+    border-radius: 20%;
+    margin-top: -23.3%;
+}
+h1{
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+label{
+    color: blue;
+    
+ }
+ p{
+    font-size: 20px;
+    padding-top: 12px;
+    text-align: center;
+ }
+ 
