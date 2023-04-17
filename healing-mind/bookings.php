@@ -39,7 +39,6 @@
         }
     ?>
 
-    <!-- service sEARCH Section Starts Here -->
     <section class="service-search2">
         <div class="container">
             
@@ -58,7 +57,6 @@
                             }
                             else
                             {
-                                //Image is Available
                                 ?>
                                 <img src="<?php echo SITEURL; ?>images/services/<?php echo $image_name; ?>" alt="" class="img-responsive img-curve">
                                 <?php
@@ -109,18 +107,17 @@
 
                 if(isset($_POST['submit']))
                 {
-                    // Get all the details from the form
 
                     $service = $_POST['service'];
                     $price = $_POST['price'];
                     $persons = $_POST['persons'];
                     
 
-                    $total = $price * $persons; // total = price x persons
+                    $total = $price * $persons; 
 
-                    $booking_date = date("Y-m-d"); //bookings DAte
+                    $booking_date = date("Y-m-d");
 
-                    $status = "Booked";  // Booked
+                    $status = "Booked";  
 
                     
                     $customer_name = $_POST['full-name'];
@@ -131,8 +128,6 @@
                     
 
 
-                    //Save the bookings in Databaase
-                    //Create SQL to save the data
                     $sql2 = "INSERT INTO tbl_bookings SET 
                         service = '$service',
                         price = $price,
@@ -147,14 +142,10 @@
                         appointment_date = '$appointment_date'
                     ";
                     
-                    //Execute the Query
                     $res2 = mysqli_query($conn, $sql2);
 
-                    //Check whether query executed successfully or not
                     if($res2==true)
                     {
-                        //Query Executed and bookings Saved
-                        //$_SESSION['bookings'] = "<div class='success text-center'>service Ordered Successfully.</div>";
                         echo '<script>
                         alert("Service Booked for Selected Date");
                         window.location = "home.php";
@@ -162,7 +153,6 @@
                     }
                     else
                     {
-                        //Failed to Save bookings
                         $_SESSION['bookings'] = "<div class='error text-center'>Failed to book service.</div>";
                         echo '<script>
                         alert("Failed");
@@ -176,6 +166,5 @@
 
         </div>
     </section>
-    <!-- service sEARCH Section Ends Here -->
 
     <?php include('partials-front/footer.php'); ?>

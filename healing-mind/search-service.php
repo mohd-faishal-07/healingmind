@@ -1,7 +1,6 @@
 
     <?php include('partials-front/menu.php'); ?>
 
-    <!-- fOOD sEARCH Section Starts Here -->
     <section class="service-search text-center">
         <div class="container">
             
@@ -11,33 +10,24 @@
 
         </div>
     </section>
-    <!-- fOOD sEARCH Section Ends Here -->
 
 
 
-    <!-- fOOD MEnu Section Starts Here -->
     <section class="service-menu">
         <div class="container">
             <h2 class="text-center">Services</h2>
 
             <?php 
-
-                //SQL Query to Get foods based on search keyword
                 $sql = "SELECT * FROM tbl_services WHERE title LIKE '%$search%' OR description LIKE '%$search%'";
 
-                //Execute the Query
                 $res = mysqli_query($conn, $sql);
 
-                //Count Rows
                 $count = mysqli_num_rows($res);
 
-                //Check whether food available of not
                 if($count>0)
                 {
-                    //Food Available
                     while($row=mysqli_fetch_assoc($res))
                     {
-                        //Get the details
                         $id = $row['id'];
                         $title = $row['title'];
                         $price = $row['price'];
@@ -48,15 +38,12 @@
                         <div class="service-menu-box">
                             <div class="service-menu-img">
                                 <?php 
-                                    // Check whether image name is available or not
                                     if($image_name=="")
                                     {
-                                        //Image not Available
                                         echo "<div class='error'>Image not Available.</div>";
                                     }
                                     else
                                     {
-                                        //Image Available
                                         ?>
                                         <img src="<?php echo SITEURL; ?>images/services/<?php echo $image_name; ?>" alt="Departments" class="img-responsive img-curve">
                                         <?php 
@@ -83,7 +70,6 @@
                 }
                 else
                 {
-                    //Food Not Available
                     echo "<div class='error'>Services not found.</div>";
                 }
             
