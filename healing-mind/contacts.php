@@ -27,7 +27,7 @@
 
     <div id = "frm">  
         <h1>For More Details</h1>  
-        <form name="f1" >  
+        <form name="f1">  
             <p>  
                 <label>   &nbsp   
                     Contact: <br><br>
