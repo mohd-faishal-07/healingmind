@@ -7,7 +7,7 @@
     
 <div class="loginbox">
 <img src="usericon.png" class="usericon">
-<img src="healinglogo.png" class="mg">
+<img src="healinglogo.png" class="healing">
     <div id = "frm">  
         <h1>Login for User</h1>  
         <form name="f1" action = "userlogin.php" onsubmit = "return validation()" method = "POST">  

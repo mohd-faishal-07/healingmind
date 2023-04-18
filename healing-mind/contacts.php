@@ -12,12 +12,7 @@
         <form name="f1" >  
             <p>  
                 <label>&nbsp 
-                    Monday: 8:00 A.M. to 10:00 P.M.
-                    Tuesday: 8:00 A.M. to 10:00 P.M.
-                    Wednesday: 8:00 A.M. to 10:00 P.M.
-                    Thursday: 8:00 A.M. to 10:00 P.M.
-                    Friday: 8:00 A.M. to 10:00 P.M.
-                    Saturday: 8:00 A.M. to 10:00 P.M.
+                    Mon-Sat 8:00 A.M. to 10:00 P.M.
                     Sunday: 9:00 A.M. to 2:00 P.M.
                 </label>  
   
@@ -36,7 +31,7 @@
             <p>  
                 <label>   &nbsp   
                     Contact: <br><br>
-                    0172-8736-983,<br><br>
+                    0172-8736-983,<br>
                     0172-8736-984  
                 </label>  
   

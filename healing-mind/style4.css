@@ -21,8 +21,7 @@ body {
     position: absolute;
     transform: translate(-50%,-50%);
     box-sizing: border-box;
-    padding: 70px 
-    30px;
+    padding: 70px 30px;
     
 }
 h2{
@@ -89,7 +88,7 @@ h{
     background: #ffc107;
     color: #000;
 }
-.mg
+.healing
 {
     width: 70px;
     height: 70px;

@@ -73,7 +73,7 @@
                         <p class="service-price">Rs. <?php echo $price; ?></p>
                         <input type="hidden" name="price" value="<?php echo $price; ?>">
 
-                        <div class="bookings-label">Quantity</div>
+                        <div class="bookings-label">Persons</div>
                         <input type="number" name="persons" class="input-responsive" value="1" required>
                         
                     </div>

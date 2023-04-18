@@ -1,13 +1,6 @@
 
     <?php include('partials-front/menu.php'); ?>
 
-    <section class=" text-center">
-        <div class="container">
-            
-        </div>
-    </section>
-
-
     <section class="service-menu">
         <div class="container">
             <h2 class="text-center">Available Services</h2>

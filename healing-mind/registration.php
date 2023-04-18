@@ -1,10 +1,10 @@
 <html>
     <head>
-        <title>Registration Healing Super-Speciality Hospital</title>
+        <title>Registration Healing Mind Super-Speciality Hospital</title>
         <link rel="stylesheet" type="text/css" href="style4.css">
     </head>
     <body>
-   <img src="healinglogo.png" class="mg">
+   <img src="healinglogo.png" class="healing">
     <div class="registerbox">
 
             <h2>Register Here</h2>

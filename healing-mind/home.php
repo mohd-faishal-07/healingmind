@@ -76,7 +76,7 @@
 
             <?php 
             
-            $sql2 = "SELECT * FROM tbl_services WHERE active='Yes' AND featured='Yes' LIMIT 6";
+            $sql2 = "SELECT * FROM tbl_services WHERE active='Yes' AND featured='Yes' LIMIT 4";
 
             $res2 = mysqli_query($conn, $sql2);
 
