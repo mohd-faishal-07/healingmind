@@ -51,7 +51,7 @@
                                 ?>
                                 
 <br><br><br><br><br><br>
-                                <h3 class="float-text text-white" ><mark style="background-color:white;"><?php echo $title; ?></mark></h3>
+                                <h3 class="float-text text-white" ><mark style="background-color:lightsteelblue;"><?php echo $title; ?></mark></h3>
                             </div>
                         </a>
 

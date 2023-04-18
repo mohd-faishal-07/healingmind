@@ -45,7 +45,6 @@
   clear: both;
   float: none;
 }
-
 a {
   color: #2300bd;
   text-decoration: none;
@@ -261,11 +260,7 @@ fieldset {
     text-align: center;
   }
 
-  .service-search input[type="search"] {
-    width: 90%;
-    padding: 2%;
-    margin-bottom: 3%;
-  }
+  
 
   .btn {
     width: 91%;
